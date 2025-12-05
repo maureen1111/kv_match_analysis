@@ -48,7 +48,7 @@ python analyze_block_reuse.py \
 
 ## Input Format
 
-Based on the [Mooncake traces](https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces), I used aiperf to convert them into actual requests with the following format:
+Based on the [Mooncake traces](https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces), I used [aiperf](https://github.com/ai-dynamo/aiperf/tree/main) to convert them into actual requests with the following format:
 
 ```json
 {
