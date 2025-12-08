@@ -1,6 +1,6 @@
 # KV Cache Hit Rate Analysis Tool
 
-A Python tool for analyzing KV cache hit rate in LLM inference workloads. 
+A Python tool for analyzing KV cache hit rate in LLM inference workloads, inspired by [peaceforeverCN](https://github.com/peaceforeverCN)
 ## Overview
 
 Based on our previous experiments, identical blocks need to be temporally distant to be evicted from GPU memory and cached by lower tier storages — for KV cache offloading to be effective.
